@@ -1,13 +1,13 @@
 {
-  "name": "keydown",
-  "version": "0.0.3",
+  "name": "keydown-with-event",
+  "version": "0.1.0",
   "description": "client side module for firing events when keys are pressed down",
   "main": "index.js",
   "keywords": ["browserify", "keypress", "bindings", "combo", "keyup"],
   "scripts": {
     "test": "echo \"to run demo: npm install beefy -g && beefy test.js\""
   },
-  "author": "max ogden",
+  "author": "danleavitt0",
   "license": "BSD",
   "dependencies": {
     "vkey": "~0.0.3"
