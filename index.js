@@ -19,7 +19,7 @@ module.exports = function(keys, el) {
       if (!emitter.pressed[k]) allPressed = false
     })
     if (allPressed) {
-      emitter.emit('pressed', ev, emitter.pressed)
+      emitter.emit('pressed', emitter.pressed, ev)
 
       // this seems to be necessary as keyup doesn't always fire during combos :/
       clearPressed()
